@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slider</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+<section>
+    <div class="slide-test">
+        <div class="nine">
+            <img src="https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"
+                 class="coverflow__image"/>
+            <img src="https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"
+                 class="coverflow__image"/>
+            <img src="https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"
+                 class="coverflow__image"/>
+            <img src="https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"
+                 class="coverflow__image"/>
+            <img src="https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"
+                 class="coverflow__image"/>
+            <img src="https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"
+                 class="coverflow__image"/>
+            <img src="https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"
+                 class="coverflow__image"/>
+            <img src="https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"
+                 class="coverflow__image"/>
+            <img src="https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"
+                 class="coverflow__image"/>
+            <img src="https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"
+                 class="coverflow__image"/>
+        </div>
+    </div>
+    <div class="slider-nav">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+</section>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.nine').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+            slidesToShow: 5,
+            asNavFor: '.nine',
+            centerMode: true,
+            focusOnSelect: true,
+            arrows:true
+        });
+    })
+</script>
+<style>
+    .slide-test{
+        width: 1170px;
+        margin: auto;
+        display: block;
+    }
+    .slide-test{
+        height: 550px;
+        display: block;
+    }
+    body{
+        background: #4a5a5f8f;
+    }
+    img{
+        padding: 10px;
+    }
+    .slider-nav{
+        text-align: center;
+        height: 70px;
+        background:white;
+        padding: 20px;
+        width: 1170px;
+        margin: auto;
+    }
+</style>
+</body>
+</html>

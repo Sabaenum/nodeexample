@@ -1,18 +1,11 @@
 var express = require('express');
 var app = express();
-var multer  = require('multer');
-var storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-        cb(null, '/uploads')
-    },
-    filename: function (req, file, cb) {
-        cb(null, file.fieldname + '-' + Date.now())
-    }
-});
+var mongoose = require('mongoose');
 
-var upload = multer({ storage: storage });
+var Rest = require('connect-rest');
+var vhost = require('vhost');
+var credentials = require('./credentials.js');
 
-var formidable = require('formidable');
 var handlebars = require('express3-handlebars')
     .create({defaultLayout:'main',
         helpers: { section: function (name, options) {
@@ -22,6 +15,28 @@ var handlebars = require('express3-handlebars')
         }
     }
     });
+
+var opts = {
+    server: {
+        socketOptions: { keepAlive: 1 }
+    }
+};
+app.use('/api', require('cors')());
+
+
+switch(app.get('env')){
+    case 'development':
+        mongoose.connect(credentials.mongo.development.connectionString, opts);
+        break;
+    case 'production':
+        mongoose.connect(credentials.mongo.production.connectionString, opts);
+        break;
+    default:
+        throw new Error('Unknown execution environment: ' + app.get('env'));
+}
+
+var autoViews = {};
+var fs = require('fs');
 
 app.engine('handlebars', handlebars.engine);
 
@@ -37,73 +52,68 @@ app.use(express.static(__dirname + '/vendor'));
 
 app.use(express.static(__dirname + '/qa'));
 
+app.use(require('cookie-parser')(credentials.cookieSecret));
+
+app.use(require('express-session')());
 
 app.use(function (req, res, next) {
     res.locals.showTests = app.get('env') !== 'production' && req.query.test === '1';
     next();
 });
 
-app.get('/contest/vacation-photo', function (req,res) {
-    var now = new Date();
-    res.render('contest/vacation-photo',{ year: now.getFullYear(), month: now.getMonth() });
+var apiOptions = {
+    context: '/',
+    domain: require('domain').create(),
+};
+var rest =  Rest.create( apiOptions );
+app.use(vhost('api.*', rest.processRequest()));
+
+app.use(function (req, res, next) {
+   res.locals.flash = req.session.flash;
+   delete req.session.flash;
+   next();
+});
+apiOptions.domain.on('error', function(err){
+    console.log('API domain error.\n', err.stack);
+    setTimeout(function(){
+        console.log('Server shutting down after API domain error.');
+        process.exit(1);
+    }, 5000);
+    server.close();
+    var worker = require('cluster').worker;
+    if(worker) worker.disconnect();
 });
 
-app.post('/contest/vacation-photo/:year/:month', function (req,res) {
-    var form = new formidable.IncomingForm();
-    form.parse(req,function (err, fields, files) {
-        if(err) return res.redirect(303, 'error');
-        console.log('received Fields');
-        console.log(fields);
-        console.log('received Files');
-        console.log(files);
-        res.redirect(303, 'thank-you');
-    });
-});
-var upload = multer().single('avatar')
-app.post('/upload', function (req, res) {
-    upload(req, res, function (err) {
-        if (err) {
-            // An error occurred when uploading
-            return
-        }
+/* Route to handlebars id we didn't found route in  Route.js */
 
-        // Everything went fine
-    })
+app.use(function(req,res,next){
+    var path = req.path.toLowerCase();
+    console.log(path);
+
+    if(autoViews[path]) return res.render(autoViews[path]);
+
+    if(fs.existsSync(__dirname + '/views' + path + '.handlebars')){
+        autoViews[path] = path.replace(/^\//, '');
+        return res.render(autoViews[path]);
+    }
+    if(fs.existsSync(__dirname + '/views' + path + '.html')){
+        autoViews[path] = path.replace(/^\//, '');
+        return res.render(autoViews[path]);
+    }
+
+    next();
 });
 
-app.get('/', function (req, res) {
-   res.render('home');
-});
+require('./routes.js')(app,rest);
 
-app.get('/about',function (req, res) {
-    res.render('about',
-        {pageTestScript: '/test-about.js'});
-});
-
-app.get('/tours/hood-river',function (req, res) {
-    res.render('tours/hood-river');
-});
-
-app.get('/tours/request-group-rate',function (req, res) {
-    res.render('tours/request-group-rate');
-});
-
-app.get('/newsletter', function (req,res) {
-    res.render('newsletter', {csrf: "CSFR token goes here"});
-});
-
-app.post('/process', function (req,res) {
-    console.log('Form from query string' + req.query.form );
-    console.log('Form from hidden' + req.body.csfr);
-    console.log('Form from visible name' + req.body.name );
-    console.log('Form Email' + req.body.email );
-    res.redirect(303, '/thank-you');
-});
+/* 404 page */
 
 app.use(function (req, res) {
     res.status(404);
     res.render('404');
 });
+
+/* 500 page */
 
 app.use(function (err,req,res,next) {
     console.error(err.stack);
@@ -112,8 +122,9 @@ app.use(function (err,req,res,next) {
     res.send('500 - Server Error');
 });
 
-app.listen(app.get('port'), function () {
-    console.log('express shared' +
-    app.get('port') + '; press');
+app.listen(app.get('port'), function(){
+    console.log( 'Express started in ' + app.get('env') +
+        ' mode on http://localhost:' + app.get('port') +
+        '; press Ctrl-C to terminate.' );
 });
-if(app.thing == null ) console.log('bleat!');
+

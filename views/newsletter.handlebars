@@ -1,5 +1,6 @@
 <h2>Sing up for Newsletter</h2>
-<form action="/process?from=newsletter" role="form" class="form-horizontal" method="POST">
+<div class="formContainer">
+    <form action="/process?from=newsletter" role="form" class="form-horizontal newLetterForm" method="POST">
     <input type="hidden" value="{{csrf}}" name="csrf">
     <div class="form-group">
         <label for="fieldName" class="col-sm-2 control-label">Name</label>
@@ -18,5 +19,31 @@
         <button type="submit" class="btn btn-default">Register</button>
         </div>
     </div>
-
 </form>
+</div>
+{{#section 'jquery'}}
+<script>
+    $(document).ready(function () {
+        $('.newLetterForm').on('submit',function (env) {
+            env.preventDefault();
+            var action = $(this).attr('action');
+            var $container = $(this).closest('.formContainer');
+            $.ajax({
+                url:action,
+                type:'POST',
+                success: function (data) {
+                    if(data.success){
+                        $container.html('<h2>Thanks You</h2>');
+                    } else {
+                        $container.html('There was a problem');
+                    }
+
+                },
+                error: function () {
+                    $container.html('There was a problem');
+                }
+            })
+        })
+    });
+</script>
+{{/section}}

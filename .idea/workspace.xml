@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447b4cc4-699d-4e4d-92cd-ce11e6fff56e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/handlers/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/email.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/model/attraction.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/model/user.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/model/vacation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/qa/test-api.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/qa/test-load.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/routes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/portfolio.handlebars" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/slide.handlebars" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/vacations.handlebars" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/meadowlark.js" afterPath="$PROJECT_DIR$/meadowlark.js" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/main.handlebars" afterPath="$PROJECT_DIR$/views/layouts/main.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/newsletter.handlebars" afterPath="$PROJECT_DIR$/views/newsletter.handlebars" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,28 +33,48 @@
       <file leaf-file-name="meadowlark.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meadowlark.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="1377">
+              <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vacation-photo.handlebars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/contest/vacation-photo.handlebars">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/user.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/new">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-api.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qa/test-api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -50,6 +87,7 @@
       <list>
         <option value="package_json" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -62,9 +100,22 @@
       <find>upload</find>
       <find>filemanager</find>
       <find>jqupload</find>
+      <find>formidable</find>
+      <find>emailService</find>
+      <find>fs</find>
+      <find>dataDir</find>
+      <find>credentials</find>
+      <find>mongoose</find>
+      <find>email</find>
+      <find>dir</find>
+      <find>__dirname</find>
+      <find>rest</find>
+      <find>rotateY(-45deg)</find>
+      <find>Sync!database!information!into!airtable crm</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
+      <replace />
     </replaceStrings>
     <dirStrings>
       <dir>C:\projects\Chat</dir>
@@ -88,20 +139,35 @@
         <option value="$PROJECT_DIR$/views/layouts/404.handlebars" />
         <option value="$PROJECT_DIR$/views/layouts/home.handlebars" />
         <option value="$PROJECT_DIR$/qa/tests-global.js" />
-        <option value="$PROJECT_DIR$/qa/test-about.js" />
         <option value="$PROJECT_DIR$/views/tours/hood-river.handlebars" />
         <option value="$PROJECT_DIR$/views/tours/request-group-rate.handlebars" />
-        <option value="$PROJECT_DIR$/qa/test-crosspage.js" />
         <option value="$PROJECT_DIR$/qa/tests-unit.js" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/views/newletter.handlebars" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Vagrantfile" />
-        <option value="$PROJECT_DIR$/views/newsletter.handlebars" />
-        <option value="$PROJECT_DIR$/views/layouts/main.handlebars" />
         <option value="$PROJECT_DIR$/views/contest/vacation-photo.handlebars" />
-        <option value="$PROJECT_DIR$/meadowlark.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/views/newsletter.handlebars" />
+        <option value="$PROJECT_DIR$/lib/email.js" />
+        <option value="$PROJECT_DIR$/qa/test-load.js" />
+        <option value="$PROJECT_DIR$/views/vacations.handlebars" />
+        <option value="$PROJECT_DIR$/credentials.js" />
+        <option value="$PROJECT_DIR$/model/vacation.js" />
+        <option value="$PROJECT_DIR$/model/attraction.js" />
+        <option value="$PROJECT_DIR$/qa/test-about.js" />
+        <option value="$PROJECT_DIR$/qa/test-crosspage.js" />
+        <option value="$PROJECT_DIR$/routes.js" />
+        <option value="$PROJECT_DIR$/handlers/main.js" />
+        <option value="$PROJECT_DIR$/slide.html" />
+        <option value="$PROJECT_DIR$/vendor/style.css" />
+        <option value="$PROJECT_DIR$/views/layouts/main.handlebars" />
+        <option value="$PROJECT_DIR$/views/slide.handlebars" />
+        <option value="$PROJECT_DIR$/views/portfolio.handlebars" />
+        <option value="$PROJECT_DIR$/meadowlark.js" />
+        <option value="$PROJECT_DIR$/qa/test-api.js" />
+        <option value="$PROJECT_DIR$/model/user.js" />
+        <option value="$PROJECT_DIR$/new" />
       </list>
     </option>
   </component>
@@ -165,7 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,11 +238,22 @@
               <item name="Chat" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chat" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="qa" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,15 +271,17 @@
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\Chat\vendor" />
-      <recent name="C:\projects\Chat\source\image" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\Chat\views" />
       <recent name="C:\projects\Chat\source\pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\Chat\vendor" />
+      <recent name="C:\projects\Chat\views\contest" />
+      <recent name="C:\projects\Chat\source\image" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -218,7 +296,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.Cross Page Test.requesting a group rate quote">
+  <component name="RunManager" selected="Mocha.API tests">
+    <configuration name="API tests" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>tdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/qa/test-api.js</test-file>
+      <test-names>
+        <name value="API tests" />
+      </test-names>
+    </configuration>
+    <configuration name="API tests.should be able to add an attraction" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>tdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/qa/test-api.js</test-file>
+      <test-names>
+        <name value="API tests" />
+        <name value="should be able to add an attraction" />
+      </test-names>
+    </configuration>
     <configuration name="Cross Page Test" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -233,7 +340,7 @@
         <name value="Cross Page Test" />
       </test-names>
     </configuration>
-    <configuration name="Cross Page Test.request group oregon" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="Stress tests" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -242,13 +349,12 @@
       <ui>tdd</ui>
       <extra-mocha-options />
       <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/qa/test-crosspage.js</test-file>
+      <test-file>$PROJECT_DIR$/qa/test-load.js</test-file>
       <test-names>
-        <name value="Cross Page Test" />
-        <name value="request group oregon" />
+        <name value="Stress tests" />
       </test-names>
     </configuration>
-    <configuration name="Cross Page Test.requesting a group rate quote" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="&quot;About&quot; Page Test" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -256,40 +362,26 @@
       <envs />
       <ui>tdd</ui>
       <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/qa/test-crosspage.js</test-file>
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/qa/test-about.js</test-file>
       <test-names>
-        <name value="Cross Page Test" />
-        <name value="requesting a group rate quote" />
+        <name value="&quot;About&quot; Page Test" />
       </test-names>
     </configuration>
-    <configuration name="Cross Page Test.visiting request group rate page" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>tdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/qa/test-crosspage.js</test-file>
-      <test-names>
-        <name value="Cross Page Test" />
-        <name value="visiting request group rate page" />
-      </test-names>
-    </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Mocha.Cross Page Test" />
-      <item index="1" class="java.lang.String" itemvalue="Mocha.Cross Page Test.request group oregon" />
-      <item index="2" class="java.lang.String" itemvalue="Mocha.Cross Page Test.requesting a group rate quote" />
-      <item index="3" class="java.lang.String" itemvalue="Mocha.Cross Page Test.visiting request group rate page" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.Stress tests" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.API tests" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.&quot;About&quot; Page Test" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.API tests.should be able to add an attraction" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.Cross Page Test.requesting a group rate quote" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.Cross Page Test" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.Cross Page Test.visiting request group rate page" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.Cross Page Test.request group oregon" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Mocha.API tests" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.API tests.should be able to add an attraction" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.Cross Page Test" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.&quot;About&quot; Page Test" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.Stress tests" />
       </list>
     </recent_temporary>
   </component>
@@ -311,44 +403,51 @@
       <workItem from="1531125669313" duration="13000" />
       <workItem from="1531127038296" duration="12443000" />
       <workItem from="1531220835652" duration="12824000" />
-      <workItem from="1531386128661" duration="17944000" />
+      <workItem from="1531386128661" duration="27898000" />
+      <workItem from="1531495326624" duration="9301000" />
+      <workItem from="1531754285320" duration="551000" />
+      <workItem from="1531912367237" duration="8914000" />
+      <workItem from="1531988893862" duration="23000" />
+      <workItem from="1531994462747" duration="16422000" />
+      <workItem from="1532078701182" duration="2527000" />
+      <workItem from="1532334731616" duration="2437000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Cross_Page_Test_requesting_a_group_rate_quote - 2018.07.10 at 16h 32m 49s.xml">
-      <configuration name="Cross Page Test.requesting a group rate quote" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_tests - 2018.07.18 at 15h 59m 26s.xml">
+      <configuration name="API tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Cross_Page_Test_requesting_a_group_rate_quote - 2018.07.10 at 16h 35m 57s.xml">
-      <configuration name="Cross Page Test.requesting a group rate quote" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_tests - 2018.07.18 at 16h 19m 51s.xml">
+      <configuration name="API tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Cross_Page_Test_requesting_a_group_rate_quote - 2018.07.10 at 16h 37m 15s.xml">
-      <configuration name="Cross Page Test.requesting a group rate quote" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_tests - 2018.07.18 at 16h 27m 22s.xml">
+      <configuration name="API tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Cross_Page_Test_requesting_a_group_rate_quote - 2018.07.10 at 16h 37m 21s.xml">
-      <configuration name="Cross Page Test.requesting a group rate quote" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_tests - 2018.07.19 at 17h 50m 10s.xml">
+      <configuration name="API tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Cross_Page_Test_requesting_a_group_rate_quote - 2018.07.10 at 16h 37m 35s.xml">
-      <configuration name="Cross Page Test.requesting a group rate quote" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_tests - 2018.07.19 at 17h 50m 38s.xml">
+      <configuration name="API tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Cross_Page_Test_requesting_a_group_rate_quote - 2018.07.10 at 16h 37m 41s.xml">
-      <configuration name="Cross Page Test.requesting a group rate quote" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_tests_should_be_able_to_add_an_attraction - 2018.07.18 at 15h 59m 43s.xml">
+      <configuration name="API tests.should be able to add an attraction" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Cross_Page_Test_requesting_a_group_rate_quote - 2018.07.10 at 16h 37m 47s.xml">
-      <configuration name="Cross Page Test.requesting a group rate quote" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Cross_Page_Test - 2018.07.18 at 15h 58m 58s.xml">
+      <configuration name="Cross Page Test" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Cross_Page_Test_requesting_a_group_rate_quote - 2018.07.10 at 16h 38m 05s.xml">
-      <configuration name="Cross Page Test.requesting a group rate quote" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Stress_tests - 2018.07.16 at 14h 33m 22s.xml">
+      <configuration name="Stress tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Cross_Page_Test_requesting_a_group_rate_quote - 2018.07.10 at 16h 38m 11s.xml">
-      <configuration name="Cross Page Test.requesting a group rate quote" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="_About__Page_Test - 2018.07.18 at 15h 58m 05s.xml">
+      <configuration name="&quot;About&quot; Page Test" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Cross_Page_Test_requesting_a_group_rate_quote - 2018.07.10 at 16h 44m 33s.xml">
-      <configuration name="Cross Page Test.requesting a group rate quote" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="_About__Page_Test - 2018.07.18 at 15h 58m 32s.xml">
+      <configuration name="&quot;About&quot; Page Test" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50782000" />
+    <option name="totallyTimeSpent" value="100911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,14 +460,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.510907" sideWeight="0.50324327" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45400944" sideWeight="0.49783784" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50177515" sideWeight="0.49675676" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45325443" sideWeight="0.49783784" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27928993" sideWeight="0.49675676" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27297297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3091892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -396,112 +496,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/meadowlark.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/main.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa/tests-global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa/test-about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/node-chat-server/examples/mongo/index.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/node-chat-server/package.json" />
-    <entry file="file://$PROJECT_DIR$/node_modules/node-chat-server/npm-debug.log" />
-    <entry file="file://$PROJECT_DIR$/node_modules/node-chat-server/setup.sh" />
-    <entry file="file://$PROJECT_DIR$/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/node_modules/node-chat-server/README.md" />
-    <entry file="file://$PROJECT_DIR$/bootstrap.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/node-chat-server/index.js" />
-    <entry file="file://$PROJECT_DIR$/source/pages/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/pages/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/pages/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/npm-debug.log" />
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="143" column="35" lean-forward="false" selection-start-line="143" selection-start-column="32" selection-end-line="143" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/about.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/404.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/image/images.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/chai.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -520,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa/test-about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/tours/request-group-rate.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -581,42 +567,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qa/tests-unit.js" />
-    <entry file="file://$PROJECT_DIR$/qa/test-crosspage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/ee-first/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/body-parser/package.json.107776406">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1265">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/body-parser/package.json.107776406" />
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,23 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1493">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/newsletter.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="64" lean-forward="false" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/main.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,15 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-335">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,22 +628,203 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/LP-PLA2-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/newsletter.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="57" lean-forward="false" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="810" column="7" lean-forward="true" selection-start-line="810" selection-start-column="7" selection-end-line="810" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nodemailer/lib/nodemailer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="344" column="16" lean-forward="false" selection-start-line="344" selection-start-column="16" selection-end-line="344" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/vacations.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/email.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/vacation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/credentials.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa/test-load.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa/test-about.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/attraction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa/test-crosspage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="134" column="3" lean-forward="false" selection-start-line="134" selection-start-column="3" selection-end-line="134" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/OwlCarousel2-2.3.4/dist/owl.carousel.js" />
+    <entry file="file://$PROJECT_DIR$/vendor/owl.animate.js" />
+    <entry file="file://$PROJECT_DIR$/views/layouts/main.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="3518" column="1" lean-forward="false" selection-start-line="3518" selection-start-column="1" selection-end-line="3518" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/slide.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="57" column="2" lean-forward="true" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/portfolio.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="87" column="57" lean-forward="false" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="57" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa/test-api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meadowlark.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="1377">
+          <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/model/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

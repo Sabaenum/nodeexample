@@ -4,12 +4,19 @@
     {{#if showTests}}
         <link rel="stylesheet" href="/mocha.css">
     {{/if}}
+    <link rel="stylesheet" href="/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 <body>
 <header>
     <img src="/image/images.png" alt="Logo Epta">
+    {{#if flash}}
+        <div class="alert alert-dismissible alert-{{flash.type}}">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <strong>{{flash.intro}}</strong>{{flash.message}}
+        </div>
+    {{/if}}
 </header>
 {{#if showTests}}
     <div id="mocha"></div>
